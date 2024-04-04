@@ -1,0 +1,31 @@
+.Loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.LoadingIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 10px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #9e9e9e;
+  animation: spin 1s infinite ease-in-out;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.LoadingText {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #9e9e9e;
+}

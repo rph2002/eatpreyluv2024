@@ -1,0 +1,74 @@
+.LoginPage {
+    backface-visibility: visible;
+    width: inherit;
+    height: inherit;
+}
+
+body {
+    background-image: url(https://www.daysoftheyear.com/wp-content/uploads/dog-day1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(121, 119, 119, 0.938);
+    background-blend-mode: soft-light;
+}
+
+.Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35rem;
+    background-color: rgb(35, 107, 38);
+    width: 35rem;
+    margin-left: 42rem;
+    margin-right: 35rem;
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+}
+
+h1#LoginTitle {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.PromptText {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    align-self: first baseline;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+.PromptBox {
+    border-radius: 10px !important;
+    border-width: 1px;
+    padding: 5px 0px 5px 0px  !important;
+    width: 90% !important;
+
+}
+
+button#ValidationClick {
+    margin-top: 20px;
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: 10px;
+    border-width: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+footer#LoginFooter {
+    color: aliceblue;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a#CreateAccLink {
+    margin-top: 15px;
+    margin-left: 10px;
+
+}

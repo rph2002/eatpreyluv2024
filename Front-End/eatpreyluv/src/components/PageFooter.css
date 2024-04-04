@@ -1,0 +1,41 @@
+.PageFooter {
+  display: flex;
+  align-items: baseline;
+
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(5, 66, 5);
+}
+
+.FooterSection {
+  height: 5vh;
+  width: 100%;
+}
+
+.ContactInfo {
+  flex-direction: column;
+  -webkit-text-fill-color: rgb(209, 219, 219);
+  margin-left: 2.5rem;
+}
+
+.Links {
+  flex-direction: column;
+  -webkit-text-fill-color: rgb(209, 219, 219);
+  margin-left: 2.5rem;
+}
+
+.Title {
+  text-align: left;
+  -webkit-text-fill-color: rgb(209, 219, 219);
+  font-size: 1.5em;
+  width: 100%;
+  margin: 0;
+  margin-left: 5%;
+}
+
+.parentComponent {
+  padding-bottom: 100px;
+  margin-top: 100px; /* adjust the value to your needs */
+}

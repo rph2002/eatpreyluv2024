@@ -1,0 +1,39 @@
+div#InputSection {
+  display: block;
+  background-color: aliceblue;
+  /* Set the width and position of the section */
+  width: 45rem;
+  position: fixed;
+  left: 38rem;
+  top: 0;
+  /* Add some border radius for a softer look */
+  border-radius: 20px;
+}
+
+/* Styles for the "Create Account" heading */
+h1#CreateAccount {
+  margin: 0;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  /* Set the font family, size, weight, and color */
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #3f3f3f;
+}
+
+/* Styles for the "Login" link */
+a#LoginLink {
+  /* Move the link to the right */
+  margin-left: 32rem;
+  /* Set the font family and size */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+/* Styles for the body */
+body {
+  /* Set the background color to a light blue */
+  background-color: #f2f8fd;
+}

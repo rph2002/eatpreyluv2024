@@ -1,0 +1,17 @@
+.HomeText {
+  text-align: center;
+  background-color: aliceblue;
+  width: 50vw;
+  margin-left: 30rem;
+  border-radius: 10px;
+}
+
+.TitleAbout {
+  font-size: 2em;
+}
+
+.BodyText {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+}

@@ -1,0 +1,13 @@
+.ItemImg {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.item {
+  padding-bottom: 20px;
+}
+
+.quantity {
+  text-align: center;
+}

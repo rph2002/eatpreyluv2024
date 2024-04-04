@@ -1,0 +1,49 @@
+.grid-container {
+  height: 100vh; /* 60% of the viewport height */
+}
+
+.grid {
+  height: 100%;
+  display: grid;
+  overflow-y: scroll;
+  grid-template-columns: repeat(
+    6,
+    1fr
+  ); /* Update grid-template-columns to use fractional units */
+  grid-gap: 1rem;
+}
+
+.item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.ItemImg {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.item h3,
+.item h4,
+.item p,
+.item label {
+  margin: 0;
+}
+
+.item button {
+  width: 100%;
+}
+
+.out-of-stock {
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid black;
+  opacity: 0.5; /* Reduce opacity for out-of-stock item */
+  border-radius: 5px;
+}

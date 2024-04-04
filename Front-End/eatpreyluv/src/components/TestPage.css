@@ -1,0 +1,10 @@
+.TestPage {
+    position: relative;
+    width: 100%;
+    
+}
+
+.HomeContent {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

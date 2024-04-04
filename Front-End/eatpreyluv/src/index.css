@@ -1,0 +1,24 @@
+body,
+html {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.App {
+  min-height: 100vh; /* Set minimum height to fill the viewport */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Column direction to stack children vertically */
+}
+
+.content {
+  flex: 1; /* Flex-grow to fill remaining space and push footer to the bottom */
+}
+
+/* Styles for PageFooter component */
